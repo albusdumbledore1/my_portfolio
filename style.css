@@ -1,0 +1,66 @@
+h1{
+    color:red;
+    text-align: center;
+    margin-left:580px;
+}
+img{
+    border:solid;
+    border-radius: 25;
+}
+
+.siddharth{
+
+    border:solid;
+   /* background-color: rosybrown;*/
+    display:flex;
+    justify-content: space-between;
+}
+
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+p,h2{
+    text-align: center;
+
+}
+
+body{
+
+    background-color: #9edede
+
+}
+
+.aboutContact *{
+
+    margin-right: 30px;
+}
+
+a:link{
+    color:rgb(0, 0, 255);
+}
+
+a:visited{
+    color:blue;
+}
+
+.game{
+    position:relative;
+}
+
+.game p{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);                 
+    opacity: 0;
+}
+.game:hover p {
+    opacity:1
+}
+
+.game:hover img {
+    opacity:0.5;
+}
